@@ -5,6 +5,12 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "xdl": "^44.0.2"
-  }
+    "xdl": "^44.0.2",
+    "snyk": "^1.317.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
