@@ -6,7 +6,7 @@
   "devDependencies": {},
   "dependencies": {
     "xdl": "^59.2.0",
-    "snyk": "^1.261.0"
+    "snyk": "^1.317.0"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
