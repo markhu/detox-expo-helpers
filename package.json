@@ -5,8 +5,8 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "snyk": "^1.317.0",
-    "xdl": "^48.0.5"
+    "xdl": "^59.2.0",
+    "snyk": "^1.317.0"
   },
   "scripts": {
     "snyk-protect": "snyk protect",
