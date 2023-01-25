@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.14.1
+version: v1.25.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -14,3 +14,14 @@ patch:
         patched: '2020-05-05T03:16:42.230Z'
     - xdl > redux > lodash:
         patched: '2020-05-05T03:16:42.230Z'
+    - xdl > @expo/devcert > lodash:
+        patched: '2023-01-25T00:34:33.021Z'
+  'npm:debug:20170905':
+    - xdl > probe-image-size > stream-parser > debug:
+        patched: '2023-01-25T00:34:33.021Z'
+    - xdl > react-dev-utils > detect-port-alt > debug:
+        patched: '2023-01-25T00:34:33.021Z'
+    - xdl > @expo/schemer > probe-image-size > stream-parser > debug:
+        patched: '2023-01-25T00:34:33.021Z'
+    - xdl > @expo/webpack-config > react-dev-utils > detect-port-alt > debug:
+        patched: '2023-01-25T00:34:33.021Z'

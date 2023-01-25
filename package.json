@@ -6,10 +6,10 @@
   "devDependencies": {},
   "dependencies": {
     "xdl": "^59.2.0",
-    "snyk": "^1.317.0"
+    "@snyk/protect": "latest"
   },
   "scripts": {
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "yarn run snyk-protect"
   },
   "snyk": true
