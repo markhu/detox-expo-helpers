@@ -6,5 +6,11 @@
   "devDependencies": {},
   "dependencies": {
     "xdl": "^48.0.5"
-  }
+    "snyk": "^1.261.0"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
+  },
+  "snyk": true
 }
