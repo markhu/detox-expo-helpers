@@ -5,7 +5,7 @@
   "license": "MIT",
   "devDependencies": {},
   "dependencies": {
-    "xdl": "^60.0.0",
+    "xdl": "^60.0.2",
     "@snyk/protect": "latest"
   },
   "scripts": {
